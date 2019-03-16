@@ -1,0 +1,14 @@
+package comum;
+
+import java.rmi.RemoteException;
+
+public class Professor {
+
+	public Professor () throws RemoteException {
+		super();		
+	}
+	
+	private static final long serialVersionUID = -240083571435714357147362L;
+
+	
+}
