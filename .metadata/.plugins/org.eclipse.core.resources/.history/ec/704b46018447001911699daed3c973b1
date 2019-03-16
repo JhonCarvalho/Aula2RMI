@@ -6,8 +6,6 @@ import java.rmi.registry.LocateRegistry;
 
 import comum.ServicoRemotoImpl;
 
-
-
 public class Servico {
 
 	public Servico() throws RemoteException{

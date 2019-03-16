@@ -9,5 +9,4 @@ public class Escola extends Pessoa {
 	}
 	
 	private static final long serialVersionUID = -1905487820086139957L;
-
 }

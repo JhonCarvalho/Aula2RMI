@@ -1,0 +1,16 @@
+package cliente;
+
+import java.rmi.Naming;
+
+import comum.IServicoRemoto;
+import comum.Professor;
+
+public class AppPrincipal {
+
+	public static void main(String[] args) {
+		IServicoRemoto objPessoa = (IServicoRemoto) Naming.lookup("rmi://localhost:8282/pessoa");
+		
+		Professor p1 = new Professor();
+		
+	}
+}
